@@ -249,6 +249,39 @@ div[data-testid="stSelectbox"] label { color:#A04527 !important; font-size:28px 
     transition: color 0.2s, background 0.2s;
 }
 .footer-links a:hover { color: #E50914; background: rgba(229,9,20,0.06); }
+            /* How CineFusion Works - Expander */
+
+[data-testid="stExpander"] {
+    background: #B8F0A1 !important;
+    border: none !important;
+    border-radius: 18px !important;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+[data-testid="stExpander"] summary {
+    background: #B8F0A1 !important;
+    color: #7D1907 !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    padding: 14px 18px !important;
+    border-radius: 18px !important;
+}
+
+[data-testid="stExpander"] summary:hover {
+    background: #AEDF9A !important;
+}
+
+[data-testid="stExpander"] svg {
+    color: #7D1907 !important;
+    fill: #7D1907 !important;
+}
+
+/* Opened content area */
+[data-testid="stExpander"] div[role="region"] {
+    background: #DDF8D1 !important;
+    border-top: 1px solid rgba(125,25,7,0.1);
+}
 </style>
 """, unsafe_allow_html=True)
 
@@ -387,7 +420,7 @@ st.markdown("""
       🔗 GitHub
     </a>
     <span style="color:#CBD5E1;">|</span>
-    <a href="www.linkedin.com/in/satyarth-pandey740" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.linkedin.com/in/satyarth-pandey740/" target="_blank" rel="noopener noreferrer">
       💼 LinkedIn
     </a>
   </div>
